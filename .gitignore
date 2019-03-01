@@ -1,0 +1,14 @@
+*.swp
+*~
+*.iml
+.*.haste_cache.*
+.DS_Store
+.idea
+dist
+public
+npm-debug.log
+node_modules
+ui/glazeComponentCss.jsx
+assets.json
+cvs
+uploads

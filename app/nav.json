@@ -1,0 +1,53 @@
+{
+  "links": [
+    {
+      "label": "Candidate Manager",
+      "href": "/candidatemanager",
+      "links": [
+        {
+          "label": "Applications",
+          "href": "/candidatemanager/applicationpage"
+        },
+        {
+          "label": "Submit",
+          "href": "/candidatemanager/submitpage"
+        },
+        {
+          "label": "Job Management",
+          "href": "/candidatemanager/jobpage"
+        },
+        {
+          "label": "User Management",
+          "href": "/candidatemanager/userpage"
+        },
+        {
+          "label": "Departments",
+          "href": "/candidatemanager/departmentpage"
+        },
+        {
+          "label": "Line Short List",
+          "href": "/candidatemanager/lineshortlist"
+        },
+        {
+          "label": "Generate Report",
+          "href": "/candidatemanager/reportPage"
+        }
+      ]
+    },
+    {
+      "links": [
+        {
+          "label": "Candidate Manager",
+          "links": [
+            {
+              "label": "Submit",
+              "href": "/candidatemanager/submitpage"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+
+}
+

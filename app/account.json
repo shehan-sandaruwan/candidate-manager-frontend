@@ -1,0 +1,23 @@
+[
+  {
+    "label": "Ike's Lair",
+    "value": 934981273
+  },
+  {
+    "label": "Sandwich Spot",
+    "value": 89987666,
+    "disabled": true
+  },
+  {
+    "label": "Green Gables",
+    "value": 76779876
+  },
+  {
+    "label": "Burger King",
+    "value": 234431244
+  },
+  {
+    "label": "Mr. Pickles",
+    "value": 342424334
+  }
+]

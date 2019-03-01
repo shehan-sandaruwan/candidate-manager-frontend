@@ -1,0 +1,203 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>error page</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+            crossorigin="anonymous"></script>
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-size: 14px;
+        }
+
+        h1, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        .cui-icon {
+            display: inline-block;
+            vertical-align: middle;
+            text-align: center;
+        }
+
+        .cui-icon.large {
+            width: 64px;
+            height: 64px;
+        }
+
+        .cui-error {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex: 1 1 auto;
+            flex-direction: column;
+            height: 100%;
+            text-align: center;
+        }
+
+        .cui-error h1 {
+            color: #5f5f5f;
+            font-family: monospace;
+            font-size: 4.3rem;
+            margin-bottom: 43px !important;
+            font-weight: lighter;
+        }
+
+        .cui-error p {
+            font-family: sans-serif;
+            font-size: 1.25rem;
+            font-weight: lighter;
+            color: #5f5f5f;
+        }
+
+        .cui-error .cui-btn-panel {
+            display: flex;
+            margin-top: 82px;
+            flex-direction: column;
+            padding: 0 140px;
+        }
+
+        .cui-error .cui-btn-panel .cui-btn {
+            margin: 0 0 45px 0;
+        }
+
+        .cui-error.e404 {
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 930" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M0 10h920v920H0V10zM0 0l17 10H0V0zm30.5 0L39 10H22l8.5-10zm21 0L60 10H43l8.5-10zm22 0L82 10H65l8.5-10zm21 0l8.5 10H86l8.5-10zm22 0l8.5 10h-17l8.5-10zm21 0l8.5 10h-17l8.5-10zm22 0l8.5 10h-17l8.5-10zm21 0l8.5 10h-17l8.5-10zm22 0l8.5 10h-17l8.5-10zm21 0l8.5 10h-17l8.5-10zm22 0l8.5 10h-17l8.5-10zm21 0l8.5 10h-17l8.5-10zm22 0l8.5 10h-17l8.5-10zm21 0l8.5 10h-17l8.5-10zm22 0l8.5 10h-17l8.5-10zm21 0l8.5 10h-17l8.5-10zm22 0l8.5 10h-17l8.5-10zm21 0l8.5 10h-17l8.5-10zm22 0l8.5 10h-17l8.5-10zm21 0l8.5 10h-17l8.5-10zm22 0l8.5 10h-17l8.5-10zm21 0l8.5 10h-17l8.5-10zm22 0l8.5 10h-17l8.5-10zm21 0l8.5 10h-17l8.5-10zm22 0l8.5 10h-17l8.5-10zm21 0l8.5 10h-17l8.5-10zm22 0l8.5 10h-17l8.5-10zm21 0l8.5 10h-17l8.5-10zm22 0l8.5 10h-17l8.5-10zm21 0l8.5 10h-17l8.5-10zm22 0l8.5 10h-17l8.5-10zm21 0l8.5 10h-17l8.5-10zm22 0l8.5 10h-17l8.5-10zm21 0l8.5 10h-17l8.5-10zm22 0l8.5 10h-17l8.5-10zm21 0l8.5 10h-17l8.5-10zm22 0l8.5 10h-17l8.5-10zm21 0l8.5 10h-17l8.5-10zm22 0l8.5 10h-17l8.5-10zm21 0l8.5 10h-17l8.5-10zm22 0l8.5 10h-17l8.5-10zM920 0v10h-17l17-10z"/><filter id="b" width="105.2%" height="105.2%" x="-2.5%" y="-2.3%" filterUnits="objectBoundingBox"><feMorphology radius="3" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"/><feOffset dx="1" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/><feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.114838089 0" in="shadowBlurOuter1"/></filter><ellipse id="e" cx="477" cy="478.5" rx="477" ry="478.5"/><filter id="d" width="107.9%" height="107.8%" x="-3.8%" y="-3.3%" filterUnits="objectBoundingBox"><feMorphology radius="3" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"/><feOffset dx="1" dy="6" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/><feGaussianBlur stdDeviation="8.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.114838089 0" in="shadowBlurOuter1"/></filter><ellipse id="g" cx="477" cy="478.5" rx="331" ry="332.5"/><filter id="f" width="106.6%" height="106.5%" x="-4.9%" y="-4.1%" filterUnits="objectBoundingBox"><feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"/><feOffset dx="-11" dy="-6" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/><feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/><feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/><feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" in="shadowBlurOuter1"/></filter><filter id="h" width="106.9%" height="106.8%" x="-5.1%" y="-4.3%" filterUnits="objectBoundingBox"><feMorphology radius="1" in="SourceAlpha" result="shadowSpreadInner1"/><feGaussianBlur stdDeviation="7.5" in="shadowSpreadInner1" result="shadowBlurInner1"/><feOffset dx="5" dy="7" in="shadowBlurInner1" result="shadowOffsetInner1"/><feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.287024457 0" in="shadowInnerInner1"/></filter></defs><g fill="none" fill-rule="evenodd"><g transform="rotate(30 437.986 994.9)"><mask id="c" fill="#fff"><use xlink:href="#a"/></mask><use fill="#000" filter="url(#b)" xlink:href="#a"/><use fill="#FFF" xlink:href="#a"/><g fill="#F0EFEB" fill-opacity=".5" mask="url(#c)"><g transform="translate(-25 67)"><circle cx="32.5" cy="32.5" r="32.5"/><circle cx="32.5" cy="227.5" r="32.5"/><circle cx="32.5" cy="422.5" r="32.5"/><circle cx="32.5" cy="617.5" r="32.5"/><circle cx="32.5" cy="812.5" r="32.5"/><circle cx="227.5" cy="136.5" r="32.5"/><circle cx="227.5" cy="331.5" r="32.5"/><circle cx="227.5" cy="526.5" r="32.5"/><circle cx="227.5" cy="721.5" r="32.5"/><circle cx="227.5" cy="916.5" r="32.5"/><circle cx="422.5" cy="32.5" r="32.5"/><circle cx="422.5" cy="227.5" r="32.5"/><circle cx="422.5" cy="422.5" r="32.5"/><circle cx="422.5" cy="617.5" r="32.5"/><circle cx="422.5" cy="812.5" r="32.5"/><circle cx="617.5" cy="136.5" r="32.5"/><circle cx="617.5" cy="331.5" r="32.5"/><circle cx="617.5" cy="526.5" r="32.5"/><circle cx="617.5" cy="721.5" r="32.5"/><circle cx="812.5" cy="32.5" r="32.5"/><circle cx="812.5" cy="227.5" r="32.5"/><circle cx="812.5" cy="422.5" r="32.5"/><circle cx="812.5" cy="617.5" r="32.5"/><circle cx="1007.5" cy="227.5" r="32.5"/><circle cx="1007.5" cy="422.5" r="32.5"/></g></g></g><g transform="translate(22 46)"><use fill="#000" filter="url(#d)" xlink:href="#e"/><use fill="#FFF" xlink:href="#e"/></g><g opacity=".21223958" transform="translate(22 46)"><use fill="#000" filter="url(#f)" xlink:href="#g"/><use fill="#EAEAEA" xlink:href="#g"/><use fill="#000" filter="url(#h)" xlink:href="#g"/><use stroke="#979797" stroke-opacity=".50877491" stroke-width="2" xlink:href="#g"/></g></g></svg>');
+            background-position: 100% 100%;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+
+        .cui-error.e500 {
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 930" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M415.704915 803.478245C638.736926 763.381543 808 567.769686 808 332.5c0-112.329653-38.585054-215.618944-103.184873-297.2580545l-43.865908 42.093992-51.152344 25.6718755 8.667969 66.449218-24.671875 77.699219-63.808594 97.414063-69.203125 217.035156-13.882813 147.660156-45.355468 54.558594 14.161946 39.654026z"/><filter id="b" width="118.5%" height="109.8%" x="-9%" y="-4.1%" filterUnits="objectBoundingBox"><feMorphology radius="3" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"/><feOffset dx="1" dy="6" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/><feGaussianBlur stdDeviation="8.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.114838089 0" in="shadowBlurOuter1"/></filter><ellipse id="e" cx="331" cy="332.5" rx="331" ry="332.5"/><filter id="d" width="106.6%" height="106.5%" x="-4.9%" y="-4.1%" filterUnits="objectBoundingBox"><feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"/><feOffset dx="-11" dy="-6" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/><feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/><feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/><feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" in="shadowBlurOuter1"/></filter><filter id="f" width="106.9%" height="106.8%" x="-5.1%" y="-4.3%" filterUnits="objectBoundingBox"><feMorphology radius="1" in="SourceAlpha" result="shadowSpreadInner1"/><feGaussianBlur stdDeviation="7.5" in="shadowSpreadInner1" result="shadowBlurInner1"/><feOffset dx="5" dy="7" in="shadowBlurInner1" result="shadowOffsetInner1"/><feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.287024457 0" in="shadowInnerInner1"/></filter><path id="g" d="M477 957c17.984035 0 35.735618-.998379 53.202674-2.942899l-5.48783-50.369601 29.394531-34.945312-6.980469-152.25L610.285156 478.5l-5.578125-126.816406 37.441802-124.493568c1.626137-10.558512 3.252273-21.117024 4.878409-31.675536l-4.878409-24.791834 28.653352-39.261718c-8.227966-39.210938 0-90.3172966 0-90.3172966-24.321696-10.8616382-49.716866-19.7416205-75.981716-26.4355112C557.136617 5.10397908 517.662489 0 477 0 213.560174 0 0 214.231747 0 478.5 0 742.768253 213.560174 957 477 957z"/><filter id="h" width="111.2%" height="107.8%" x="-5.4%" y="-3.3%" filterUnits="objectBoundingBox"><feMorphology radius="3" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"/><feOffset dx="1" dy="6" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/><feGaussianBlur stdDeviation="8.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.114838089 0" in="shadowBlurOuter1"/></filter><ellipse id="k" cx="477" cy="478.5" rx="331" ry="332.5"/><filter id="j" width="106.6%" height="106.5%" x="-4.9%" y="-4.1%" filterUnits="objectBoundingBox"><feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"/><feOffset dx="-11" dy="-6" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/><feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/><feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/><feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" in="shadowBlurOuter1"/></filter><filter id="l" width="106.9%" height="106.8%" x="-5.1%" y="-4.3%" filterUnits="objectBoundingBox"><feMorphology radius="1" in="SourceAlpha" result="shadowSpreadInner1"/><feGaussianBlur stdDeviation="7.5" in="shadowSpreadInner1" result="shadowBlurInner1"/><feOffset dx="5" dy="7" in="shadowBlurInner1" result="shadowOffsetInner1"/><feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.287024457 0" in="shadowInnerInner1"/></filter></defs><g fill="none" fill-rule="evenodd"><g transform="translate(211 146)"><mask id="c" fill="#fff"><use xlink:href="#a"/></mask><use fill="#000" filter="url(#b)" xlink:href="#a"/><use fill="#FFF" xlink:href="#a"/><g opacity=".21223958" mask="url(#c)"><use fill="#000" filter="url(#d)" xlink:href="#e"/><use fill="#EAEAEA" xlink:href="#e"/><use fill="#000" filter="url(#f)" xlink:href="#e"/><use stroke="#979797" stroke-opacity=".50877491" stroke-width="2" xlink:href="#e"/></g></g><g transform="translate(22)"><mask id="i" fill="#fff"><use xlink:href="#g"/></mask><use fill="#000" filter="url(#h)" xlink:href="#g"/><use fill="#FFF" xlink:href="#g"/><g opacity=".21223958" mask="url(#i)"><use fill="#000" filter="url(#j)" xlink:href="#k"/><use fill="#EAEAEA" xlink:href="#k"/><use fill="#000" filter="url(#l)" xlink:href="#k"/><use stroke="#979797" stroke-opacity=".50877491" stroke-width="2" xlink:href="#k"/></g></g></g></svg>');
+            background-position: 100% 100%;
+            background-size: 100% 100%;
+        }
+
+        .cui-btn {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-family: sans-serif;
+            font-weight: lighter;
+            font-size: 1rem;
+            outline: none;
+            padding: 0 4.5rem;
+            height: 47px;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: background 0.3s, box-shadow 0.3s;
+            margin-right: 10px;
+            background: #f2700f;
+            color: #fff;
+        }
+
+        .cui-btn:hover {
+            background: #dc650c;
+        }
+
+        .cui-btn:active {
+            background: #f37e27;
+            box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.25);
+        }
+
+        .cui-btn .btn-inner-wrapper {
+            display: flex;
+            flex: 0 0 auto;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            flex-wrap: wrap;
+        }
+
+        .cui-btn .btn-inner-wrapper .text-holder {
+            font-size: 1rem;
+        }
+
+        .cui-btn:last-child {
+            margin-right: 0;
+        }
+
+        .cui-btn:after, .cui-btn:before {
+            content: " ";
+            flex: 1 0 auto;
+        }
+
+        .cui-btn.disabled {
+            pointer-events: none;
+            opacity: 0.5;
+            user-select: none;
+        }
+
+        .cui-btn.negative {
+            background-color: transparent;
+            border: solid 1px #f2700f;
+            color: #f2700f;
+        }
+
+        .cui-btn.negative:hover {
+            background-color: #f2700f;
+            color: #fff;
+        }
+
+        .cui-btn.negative:active {
+            background: #f37e27;
+            box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.25);
+        }
+    </style>
+    <script>
+        function onButtonClick() {
+            let url = window.location.href;
+            let arr = url.split("/");
+            window.location.href = arr[0] + "//" + window.location.host;
+        }
+    </script>
+</head>
+<body>
+<div data-reactroot="" class="cui-error e404">
+    <div class="error-content">
+        <div class="large sad-face cui-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                <path fill="#5f5f5f"
+                      d="M10,19.9c-5.5,0-9.9-4.4-9.9-9.9S4.5,0.1,10,0.1s9.9,4.4,9.9,9.9S15.5,19.9,10,19.9z M10,18.3 c4.6,0,8.3-3.7,8.3-8.3S14.6,1.7,10,1.7S1.7,5.4,1.7,10S5.4,18.3,10,18.3z M6.7,8.8C6,8.8,5.5,8.2,5.5,7.5S6,6.3,6.7,6.3 s1.2,0.6,1.2,1.2S7.4,8.8,6.7,8.8z M13.3,8.8c-0.7,0-1.2-0.6-1.2-1.2s0.6-1.2,1.2-1.2c0.7,0,1.2,0.6,1.2,1.2S14,8.8,13.3,8.8z M13.3,15c0-1.8-1.4-3.3-3.1-3.3S7,13.1,7,15c0,0.4,0.3,0.7,0.7,0.7s0.7-0.3,0.7-0.7c0-1.1,0.8-2,1.8-2s1.8,0.9,1.8,2 c0,0.4,0.3,0.7,0.7,0.7S13.3,15.3,13.3,15z"></path>
+            </svg>
+            <!--
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                <path fill="#5f5f5f"
+                      d="M10,19.9c-5.4,0-9.9-4.4-9.9-9.9S4.6,0.1,10,0.1s9.9,4.4,9.9,9.9S15.4,19.9,10,19.9z M10,18.2c4.5,0,8.2-3.7,8.2-8.2S14.5,1.8,10,1.8c-4.5,0-8.2,3.7-8.2,8.2S5.5,18.2,10,18.2z M10,16.6c-1.6,0-2.9-1.5-2.9-3.3 S8.4,10,10,10s2.9,1.5,2.9,3.3S11.6,16.6,10,16.6z M10,14.9c0.6,0,1.2-0.7,1.2-1.6s-0.6-1.6-1.2-1.6s-1.2,0.7-1.2,1.6 S9.4,14.9,10,14.9z M6.7,8.8C6,8.8,5.5,8.2,5.5,7.5S6,6.3,6.7,6.3s1.2,0.6,1.2,1.2S7.4,8.8,6.7,8.8z M13.3,8.8 c-0.7,0-1.2-0.6-1.2-1.2s0.6-1.2,1.2-1.2s1.2,0.6,1.2,1.2S14,8.8,13.3,8.8z"></path>
+            </svg>
+            -->
+        </div>
+        <h1>Whoops!</h1>
+        <p>Oops some thing has gone wrong !</p>
+        <div class="cui-btn-panel" id="mainButtonPanel">
+            <button type="primary" value="Take me home" class="cui-btn large primary">
+                <div class="btn-inner-wrapper">
+                    <div class="text-holder" onclick="onButtonClick()">Take me home</div>
+                </div>
+            </button>
+        </div>
+    </div>
+</div>
+<script>
+    var url = window.location.href;
+    if (String(url).indexOf('appClient=CINCO') !== -1) {
+        $('#mainButtonPanel').hide();
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,152 @@
+{
+  "idmUserId": "8523f7e2-d623-43cb-9091-f7f3f610e53d",
+  "email": "nuwan.prabhath@leap.com",
+  "userType": "REGULAR",
+  "profiles": [
+    {
+      "profileId": 5340,
+      "permissions": [
+        {
+          "id": 2,
+          "key": "restaurant.administrator",
+          "name": "Restaurant Administrator",
+          "description": "Can grant restaurant admin privileges ( including revoking other RA users ) and permissions   to Admin Portal Access",
+          "parentId": 1
+        },
+        {
+          "id": 3,
+          "key": "admin.portal.access",
+          "name": "Admin Portal Access",
+          "parentId": 2
+        },
+        {
+          "id": 4,
+          "key": "cake.reports.access",
+          "name": "CAKE Reports",
+          "parentId": 3
+        },
+        {
+          "id": 5,
+          "key": "pos.reports.access",
+          "name": "POS Reports",
+          "description": "Can access POS transaction reports",
+          "parentId": 4
+        },
+        {
+          "id": 6,
+          "key": "intel.reports.access",
+          "name": "Intel Reports",
+          "description": "Can access intel report",
+          "parentId": 4
+        },
+        {
+          "id": 7,
+          "key": "payments.reports.access",
+          "name": "Payments Reports",
+          "description": "Can access payments reports",
+          "parentId": 4
+        },
+        {
+          "id": 8,
+          "key": "crm.reports.access",
+          "name": "CRM Reports",
+          "description": "Can access CRM reports",
+          "parentId": 4
+        },
+        {
+          "id": 9,
+          "key": "menu.admin.access",
+          "name": "Menu Admin",
+          "description": "Can access Menu Admin",
+          "parentId": 3
+        },
+        {
+          "id": 10,
+          "key": "user.admin.access",
+          "name": "User Admin",
+          "description": "Can grant Point.of.sale.access permission",
+          "parentId": 3
+        },
+        {
+          "id": 11,
+          "key": "point.of.sale.access",
+          "name": "Point of Sale Access",
+          "description": "Provides access to following POS features",
+          "parentId": 2
+        },
+        {
+          "id": 12,
+          "key": "pos.orders.access",
+          "name": "POS Orders Access",
+          "description": "For the Back of House users Orders Access permission should not be selected",
+          "parentId": 11
+        },
+        {
+          "id": 13,
+          "key": "pos.manager.approval",
+          "name": "POS Manager Approval",
+          "parentId": 12
+        },
+        {
+          "id": 14,
+          "key": "pos.service.charge",
+          "name": "POS Service Charge",
+          "parentId": 12
+        },
+        {
+          "id": 15,
+          "key": "pos.custom.items.and.menus",
+          "name": "POS Custom Items And Menus",
+          "parentId": 12
+        },
+        {
+          "id": 16,
+          "key": "pos.close.cash",
+          "name": "POS Close Cash",
+          "parentId": 12
+        },
+        {
+          "id": 17,
+          "key": "pos.declare.tips",
+          "name": "POS Declare Tips",
+          "parentId": 12
+        },
+        {
+          "id": 18,
+          "key": "pos.all.orders.access",
+          "name": "POS All Orders Access",
+          "parentId": 12
+        },
+        {
+          "id": 19,
+          "key": "pos.discount.approval",
+          "name": "POS Discount Approval",
+          "parentId": 12
+        },
+        {
+          "id": 20,
+          "key": "auxiliary.functions",
+          "name": "Billing & Payment",
+          "description": "Grants access to Auxiliary Functions (i.e. features which are not specified as a permission, but are available under Admin Portal)",
+          "parentId": 3
+        },
+        {
+          "id": 21,
+          "key": "pos.system.options",
+          "name": "System Options Access (POS)",
+          "description": "Grants access to System Options",
+          "parentId": 3
+        },
+        {
+          "id": 22,
+          "key": "cake.timesheet.access",
+          "name": "Timesheet",
+          "parentId": 3
+        }
+      ],
+      "accountId": "10174926",
+      "contextType": "ACCOUNT",
+      "profileStatus": "VERIFIED"
+    }
+  ]
+}
